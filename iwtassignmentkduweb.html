@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+  <title>KDU Story</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href = "css/bootsrap.min.css" rel = "stylesheet">
+   <link href = "css/style.css" rel = "stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
+<style>
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+	  height: 550px;
+      margin: auto;
+	 
+	 
+  }
+
+
+
+h1 {
+    text-align: right;
+	 font-style: oblique;
+	 font-size: 15px;
+}
+h2{
+    text-align: left;
+	 font-style: oblique;
+	 font-size: 15px;
+}
+input[type=search] {
+
+       margin-left: 950px;
+       margin-top: 0px;
+
+
+
+}
+	
+  
+    
+   
+.button-search{
+    position: absolute;
+    top: 85px;
+    right: 0;
+	width:100px;
+    height:30px;
+	
+}
+
+.back{
+        width: 100%;
+	height: 400px;
+}
+
+.campus{
+	width:50%;
+	height:35px;
+}
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+.bar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+.bar ul{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;}
+.bar li{
+	  float: left;
+	}
+	.bar li a:hover{
+	  background-color: #111;
+	}
+</style>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+
+
+<header>
+<!--navigation bar-->
+<div class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    
+	<a href = "HOMEPAGE.html" class= "navbar-brand">KDU</a>
+	<button class = "navbar-toggle" data-toggle = "collapse" data-target= ".navHeaderCollapse">
+	      <span class = "icon-bar"></span>
+		  <span class = "icon-bar"></span>
+		  <span class = "icon-bar"></span>
+	</button>
+      <div class = "collapse navbar-collapse navHeaderCollapse">
+      <ul class = "nav navbar-nav navbar-right">
+	  <li class = "dropdown">
+	  <a href = "http://university.kdu.edu.my/about-kdu" class = "dropdown-toggle" data-toggle = "dropdown">ABOUT KDU </a>
+    <ul class = "dropdown-menu">
+	  <li><a href = "iwtassignmentkduweb.html">KDU STORY</a></li>
+	  <li><a href = "iwtassignmentkduweb2-3%20(1).html">CAMPUS FACILITIES<a/></li>
+	  <li><a href = "http://university.kdu.edu.my/about-kdu/partner-university">PARTNER UNIVERSITY</a></li>
+      <li><a href = "http://university.kdu.edu.my/about-kdu/contact-us">CONTACT US</a></li>
+	  </ul>
+	  </li>
+	   <li class = "dropdown">
+	  <a href = "file:///C:/Users/user/Desktop/master%20piece/OVERVIEW.html" class = "dropdown-toggle" data-toggle = "dropdown">PROGRAMMES</a>
+    <ul class = "dropdown-menu">
+	  <li><a href="http://university.kdu.edu.my/programmes/business">BUSINESS</a></li>
+	  <li><a href="http://university.kdu.edu.my/programmes/communication-creative-arts">COMMUNICATION & CREATIVE ARTS</a></li>
+      <li><a href="SCCM.html">COMPUTING & CREATIVE MEDIA</a></li>
+	  <li><a href="http://university.kdu.edu.my/programmes/engineering">ENGINEERING</a></li>
+	  <li><a href="http://university.kdu.edu.my/programmes/hospitality-tourism-culinary-arts">HOSPITALITY,TOURISM & CULINARY ARTS</a></li>
+	  <li><a href="http://university.kdu.edu.my/programmes/english-language">ENGLISH LANGUAGE</a></li>
+	  <li><a href="http://university.kdu.edu.my/programmes/postgraduate-studies/why-postgraduate-studies">POSTGRADUATE STUDIES</a></li>
+	  <li><a href="http://university.kdu.edu.my/programmes/progression-pathway">PROGRESSION PARTHWAY</a></li>
+	  </ul>
+	  </li>
+	  
+
+   
+     <li class = "dropdown">
+	  <a href = "http://university.kdu.edu.my/admission" class = "dropdown-toggle" data-toggle = "dropdown">ADMISSION</a>
+    <ul class = "dropdown-menu">
+	  <li><a href="http://university.kdu.edu.my/admission/admission-procedure">ADMISSIONS PROCEDURE</a></li>
+	  <li><a href="http://university.kdu.edu.my/admission/scholarships-bursaries">SCHOLARSHIPS & BURSARIES</a></li>
+	  <li><a href="http://university.kdu.edu.my/admission/intake-dates">INTAKE DATES</a></li>
+		  
+	  </ul>
+	  </li>
+
+   <li class = "dropdown">
+	  <a href = "http://university.kdu.edu.my/campus-life" class = "dropdown-toggle" data-toggle = "dropdown">CAMPUS LIFE</a>
+    <ul class = "dropdown-menu">
+	  <li><a href="http://university.kdu.edu.my/campus-life/student-alumni-centre/student-life">STUDENT & ALUMI CENTRE</a></li>
+	  <li><a href="http://university.kdu.edu.my/campus-life/accommodation">ACCOMMODATION</a></li>
+	  <li><a href="http://university.kdu.edu.my/campus-life/transportation">TRANSPORTATION</a></li>
+	  <li><a href="http://university.kdu.edu.my/campus-life/teaching-learning/student-entry">TEACHING & LEARNING</a></li>
+	  <li><a href="media1.html">MEDIA GALLERY</a></li>
+	  <li><a href="http://www.kdu.edu.my/kdu-virtual-tour/index.html">VIRTUAL TOUR</a></li>
+				
+	  </ul>
+	  </li>
+ <li class = "dropdown">
+	  <a href = "http://university.kdu.edu.my/international-students" class = "dropdown-toggle" data-toggle = "dropdown">INTERNATIONAL STUDENT</a>
+    <ul class = "dropdown-menu">
+	  <li><a href="http://university.kdu.edu.my/international-students/find-programme">FIND PROGRAMME</a></li>
+	  <li><a href="http://university.kdu.edu.my/international-students/international-student-support">INTERNATIONAL STUDENT SUPPORT</a></li>
+	  <li><a href="http://university.kdu.edu.my/international-students/testimonial">TESTIMONIAL</a></li>
+	  <li><a href="http://university.kdu.edu.my/international-students/admissions">ADMISSIONS</a></li>
+	  <li><a href="http://university.kdu.edu.my/international-students/international-agent">INTERNATIONAL AGENTT</a></li>
+		
+				
+	  </ul>
+	  </li>
+	   <li><a href="http://university.kdu.edu.my/news-events">NEWS & EVENTS</a></li>
+
+</ul>
+    </div>
+    
+     
+    </div>
+  </div>
+  <table>
+<tr>
+<td>
+<!--picture logo-->
+<div id="logo">
+
+<a href="HOMEPAGE.html">
+<img src="kdulogo.png" alt="logo Icon" style="width:300px;height:150px">
+</a>
+
+</div>
+</td>
+
+<td>
+<!--search input-->
+<form id="searcher" action="error.html" >
+
+<input type="search" name="searchengine">
+<button onclick="myFunction()">Search</button>
+<script>
+function myFunction(){
+	alert("Cannot Search");
+}
+
+</script>
+
+</form>
+</td>
+</tr>
+</table>
+
+
+  </header>
+
+
+
+
+<!--Center Image-->
+<div class="back">
+ <img src="kdulogobk1.png" alt="logo Icon" style="width:2000px;height:400px;">
+</div>
+<!--Options-->
+<div class="bar">
+  <ul>
+  <li><a class="active" href="http://university.kdu.edu.my/about-kdu/kdu-story">KDU Story</a></li>
+  <li><a href="http://university.kdu.edu.my/about-kdu/our-campus">Our Campus</a></li>
+  <li><a href="http://university.kdu.edu.my/about-kdu/partner-university">Partner University</a></li>
+  <li><a href="http://university.kdu.edu.my/about-kdu/contact-us">Contact Us</a></li>
+</ul>
+  
+</div>
+
+
+<p>KDU STORY</p>
+<p>KDU, an institution that has over 32 years of history and experience, believes in providing real world education to meet real world needs, and has traditionally, been successful in producing competent graduates and preparing students for top universities all over the world.
+ 
+Established in 1983, and a pioneer in Malaysian private education, KDU was one of the first private colleges in Malaysia to have its own purpose-built campus. The institution, as KDU College then, was awarded the university college status in 2010 – a reflection of its quality programmes, and the growth of its international student population.
+ 
+KDU University College and KDU College are members of Paramount Education, a fully-integrated education services provider for primary, secondary, tertiary, and postgraduate level studies as well as executive and professional development programmes.</p>
+<p>HERITAGE</p>
+<p>
+1983 - 
+Kolej Damansara Utama (as it was first known) opened for enrolment and welcomed its first batch of students. Offered courses such as GCE A-Level, STP and US Pre-University courses and the American Credit Transfer program.
+</p>
+<p>
+1984 - 
+Pioneer batch of American Credit Transfer program students transfer to various universities across the United States.
+First in the nation to run the Association of Chartered Certified Accountants (ACCA) course on a full-time basis.
+Introduced the first overseas twinning programme in partnership with Middlesex Polytechnic (Middlesex University).
+</p>
+<p>
+1991 - 
+Established the Penang Campus to cater to the higher education needs of aspiring youths in the northern region.
+</p>
+<p>
+2010 - 
+Awarded the ‘University College’ status.
+</p>
+<p>
+2015 - 
+Moved to its flagship campus in Utropolis Glenmarie.
+	</p>
+<p>AWARDS & ACHIEVEMENTS</p>
+<div class="container">
+  <button type="button" class="btn btn-kdu story">Hospitality, Tourism & Culinary Art</button>
+  <button type="button" class="btn btn-our campus">Computing & Creative Media</button>
+  <button type="button" class="btn btn-partner university">Pre-University & Foundation</button>
+  <button type="button" class="btn btn-contact us">ACCA</button>
+  <button type="button" class="btn btn-contact us">KDU University College Achievements</button>
+</div>
+  <div class="super">
+<ul>
+  <li><a href="#home">Be a KDU Student</a></li>
+  <li><a href="#news">Virtual Tour</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</div>
+
+<footer>
+  <h1>By Paramount Education.
+  <br><img src="KDUlog.png" alt="Mountain View" style="width:50px;height:50px;"><img src="kdulog2.png" alt="Mountain View" style="width:50px;height:50px;"><img src="kdulog3.png" alt="Mountain View" style="width:50px;height:50px;"><br></h1>
+  <h2>© Copyright KDU University College 2016. All rights reserved.</h2>
+
+ 
+</footer>
+</body>
+</html>
